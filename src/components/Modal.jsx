@@ -31,12 +31,12 @@ export default class Modal extends Component {
                       </h5>
                       <Link to="/">
                         <ButtonContainer onClick={() => closeModal()}>
-                          store
+                          continue shopping
                         </ButtonContainer>
                       </Link>
                       <Link to="/cart">
                         <ButtonContainer cart onClick={() => closeModal()}>
-                          go to cart
+                          check out
                         </ButtonContainer>
                       </Link>
                     </div>
